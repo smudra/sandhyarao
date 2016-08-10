@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Optimations</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/ico" href="http://optimations.com/favicon.ico">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">  
+    <link rel="stylesheet" href="assets/plugins/parallax-slider/css/parallax-slider.css">
+
+    <!-- CSS Theme -->    
+    <link rel="stylesheet" href="assets/css/theme-colors/default.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>	
+
+<body>
+<?php include_once("analyticstracking.php") ?> <!-- Google Analytics Page tracking -->
+<div class="wrapper">
+    <!--=== Header ===-->    
+    <div class="header">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="container">
+            </div>
+        </div>
+        <!-- End Topbar -->
+    
+        <!-- Navbar -->
+        <div class="navbar navbar-default mega-menu" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img id="logo-header" src="assets/img/logo1-default.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Home -->
+                        <li class="active">
+                            <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">
+                                Home
+                            </a>
+                        </li>
+                        <!-- End Home -->
+
+                        <!-- Solutions -->                        
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                Solutions
+                          </a>
+                            <ul class="dropdown-menu">
+                                <!-- About Solutions -->
+                                <li>
+                                    <a href="http://optimations.com/enterprise-social.html">Enterprise Social</a>
+                                </li>
+                                <li>
+                                  <a href="http://optimations.com/data-analytics.html">Smart Data Analytics &amp; Visualization</a>
+                                </li>
+                                <li>
+                                  <a href="http://optimations.com/digital-pre-compositing.html">Digital Pre-Compositing</a>
+                                </li>
+                                <li>
+                                  <a href="http://optimations.com/dev-ops.html">DevOps</a>
+                                </li>
+                                <!-- End About Solutions -->
+                            </ul>
+                        </li>
+                        <!-- End Solutions -->
+
+                        <!-- Industries -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                Industries
+                          </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                	<a href="industries.html">Media, Entertainment &amp; Gaming</a>
+                              </li>
+                                <li>
+                                	<a href="industries.html">Manufacturing &amp; Engineering</a>
+                                </li>
+                                <li>
+                                	<a href="industries.html">Life Sciences &amp; Healthcare</a>
+                                </li>
+                                <li>
+                                	<a href="industries.html">Technology &amp; Communications</a>
+                                </li>
+                                <li>
+                                	<a href="industries.html">Banking &amp; Financial Services</a>
+                                </li>
+                                <li>
+                                	<a href="industries.html">Retail &amp; Consumer Products</a>
+                                </li>
+                                <li>
+                                	<a href="industries.html">Federal &amp; Government</a>
+                                </li> 
+                          </ul>
+                        </li>
+                        <!-- End Industries -->
+
+                        <!-- Blog -->
+                        <li class="dropdown">
+                            <a href="https://www.linkedin.com/today/author/478501?trk=pulse-det-athr_posts" target="_blank" class="dropdown-toggle" data-toggle="dropdown">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.linkedin.com/pulse/virtual-reality-digital-electric-transformative-ahead-natarajan?trk=mp-reader-card" target="_blank">Transformative Innovation Ahead</a></li>
+                                <li><a href="https://www.linkedin.com/pulse/20141015233909-478501-you-me-they-the-digital-experience-universe?trk=mp-reader-card" target="_blank">The Digital Experience Universe</a></li>
+                                <li><a href="https://www.linkedin.com/pulse/20140912231012-478501-whose-life-have-i-touched-today?trk=prof-post" target="_blank">Whose Life have I touched today?</a></li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Blog -->
+
+                        <!-- Contacts -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                Contacts
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="page_contact_advanced.php">Contact Us</a></li>
+                            </ul>
+                        </li>                    
+                        <!-- End Contacts -->
+                    </ul>
+                </div><!--/navbar-collapse-->
+            </div>    
+        </div>            
+        <!-- End Navbar -->
+    </div>
+    <!--=== End Header ===-->    
+
+    <!--=== Slider ===--><div class="slider-inner">
+        <div id="da-slider" class="da-slider">
+            <div class="da-slide">
+                <p><i>ACCESS <strong>STATE OF THE ART</strong></i> <br /> 
+              <i><strong>SOLUTIONS, PRODUCTS AND</strong></i> <br /> 
+              <i> <strong>LICENSIBLE IP</strong></i></p>
+                <div class="da-img"><iframe src="http://player.vimeo.com/video/114816074" width="530" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+            </div>
+            <div class="da-slide">
+                <p><i>ACCESS <strong>STATE OF THE ART</strong></i> <br /> 
+              <i><strong>SOLUTIONS, PRODUCTS AND</strong></i> <br /> 
+              <i> <strong>LICENSIBLE IP</strong></i></p>
+                <div class="da-img">
+                    <iframe src="http://player.vimeo.com/video/114816074" width="530" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+                </div>
+            </div>
+            <div class="da-slide">
+                <p><i>ACCESS <strong>STATE OF THE ART</strong></i> <br /> 
+              <i><strong>SOLUTIONS, PRODUCTS AND</strong></i> <br /> 
+              <i> <strong>LICENSIBLE IP</strong></i></p>
+                <div class="da-img"><iframe src="http://player.vimeo.com/video/114816074" width="530" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+            </div>
+            <div class="da-arrows">
+                <span class="da-arrows-prev"></span>
+                <span class="da-arrows-next"></span>        
+            </div>
+        </div>
+    </div><!--/slider-->
+    <!--=== End Slider ===-->
+
+    <!--=== Purchase Block ===-->
+    <div class="purchase">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 animated fadeInLeft">
+                    <span>Unique solutions to help your business out-compete.</span>
+                    <p>Businesses today are defined by their real-time pervasive intelligence and continual response to dynamic global marketplaces, customers, competitors, and partners. Optimations offers the latest, most innovative, competitive products, solutions and expertise to meet those expectations so your business can compete better.</p>
+                    <p>&nbsp;</p>
+
+                </div>
+                <div id="rowCTA">
+                	<a href="http://optimations.com/page_contact_advanced.php"><img src="http://optimations.com/assets/img/main/cta-button.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div><!--/row-->
+    <!-- End Purchase Block -->
+
+    <!--=== Content Part ===-->
+    <div class="container content">	
+    	<!-- Service Blocks -->
+    	<div class="row margin-bottom-30">
+        	<div class="col-md-4 col-md-home">
+        		<div class="service">
+                    <i class="fa fa-users service-icon"></i>
+        			<div class="desc">
+        				<h4><a href="http://optimations.com/enterprise-social.html">Enterprise Social</a></h4>
+                        <p>Social Solutions that leverage Enterprise Social behavior to accelerate innovation, productivity, efficiency & time to market across Industries.</p>
+        			</div>
+        		</div>	
+        	</div>
+        	<div class="col-md-4 col-md-home">
+        		<div class="service">
+                    <i class="fa fa-pie-chart service-icon"></i>
+        			<div class="desc">
+        				<h4><a href="http://optimations.com/data-analytics.html">Smart Data Analytics &amp; Visualization</a></h4>
+                        <p>Big data Analytics, Visualization, Smart Data solutions for Enterprises across Industries.</p>
+        			</div>
+        		</div>	
+        	</div>
+        	<div class="col-md-4 col-md-home">
+        		<div class="service">
+                    <i class="fa fa-video-camera service-icon"></i>
+        			<div class="desc">
+        				<h4><a href="http://optimations.com/digital-pre-compositing.html">Digital Pre-Compositing</a></h4>
+                        <p>World Class Pre-Compositing Solutions for the Media, Entertainment &amp; Gaming industries.</p>
+        			</div>
+        		</div>	
+        	</div>      
+        	<div class="col-md-4 col-md-home">
+        		<div class="service">
+                    <i class="fa fa-cloud service-icon"></i>
+        			<div class="desc">
+        				<h4><a href="http://optimations.com/dev-ops.html">DevOps</a></h4>
+                        <p>Deploying Saas based solutions to customers each day, reducing cost and time, and keeping the business ahead of the competitors.</p>
+        			</div>
+        		</div>	
+        	</div>		    
+    	</div>
+    	<!-- End Service Blocks -->
+
+    	<!-- Info Blokcs -->
+    	<div class="row margin-bottom-30">
+        	<!-- Welcome Block -->
+    		<div class="col-md-8 md-margin-bottom-40">
+    			<div class="headline"><h2>Welcome To Optimations</h2></div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive margin-bottom-20" src="assets/img/main/home-img.jpg" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Our portfolio of innovative global products and expertise is ready to tap into today for several diverse <a href="industries.html">Industries</a>. At Optimations, we recognize you needed all this... yesterday ! You can access the products and expertise you need faster and more inexpensively than competitors, over the cloud or on mobile devices instantly.</p>
+                    </div>
+                </div>
+
+                <blockquote class="hero-unify">
+                    <p>Optimations provides business leadership, strategic advisory, executive networking, investor direction and mentoring for Optimations customers, to achieve world-class reach, execution, capacity, and scale, defined by consistency, quality, performance while establishing strong mindshare and relevance across over a dozen industries. </p>
+                    <small>President, Hari Natarajan</small>
+                </blockquote>
+            </div><!--/col-md-8-->        
+
+    	</div>	
+    	<!-- End Info Blocks -->
+
+        
+    </div><!--/container-->		
+    <!-- End Content Part -->
+
+    <!--=== Footer Version 1 ===-->
+    <div class="footer-v1">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- About -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <a href="index.html"><img src="assets/img/logo2-default.png" alt="Optimations" class="footer-logo" id="logo-footer" title="Optimations"></a>
+                        <p>Optimations current business solutions portfolio includes Digital Pre-Compositing, Information Delivery, Analytics, Managed Data Discovery (Big/Smart Data Science) for the Internet of Things, Enterprise Social and Social Learning.</p>    
+                    </div><!--/col-md-3-->
+                    <!-- End About -->
+
+                    <!-- Latest -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="posts">
+                            <div class="headline"><h2>Latest Posts</h2></div>
+                            <ul class="list-unstyled latest-list">
+                                <li>
+                                    <a href="https://www.linkedin.com/pulse/virtual-reality-digital-electric-transformative-ahead-natarajan?trk=mp-reader-card" target="_blank">Transformative Innovation Ahead</a>
+                                    <small>Dec 27, 2014</small>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/pulse/20141015233909-478501-you-me-they-the-digital-experience-universe?trk=mp-reader-card" target="_blank">The Digital Experience Universe</a>
+                                    <small>Oct 15, 2014</small>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/pulse/20140912231012-478501-whose-life-have-i-touched-today?trk=prof-post" target="_blank">Whose life have I touched</a>
+                                    <small>Sep 12, 2014</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!--/col-md-3-->  
+                    <!-- End Latest --> 
+                    
+                    <!-- Link List -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="headline"><h2>Useful Links</h2></div>
+                        <ul class="list-unstyled link-list">
+                            <li><a href="enterprise-social.html">Enterprise Social</a></li>
+                            <li><a href="data-analytics.html">Smart-Data Analytics</a></li>
+                            <li><a href="digital-pre-compositing.html">Digital Pre-Compositing</a></li>
+                            <li><a href="page_contact_advanced.php">Contact us</a></li>
+                        </ul>
+                    </div><!--/col-md-3-->
+                    <!-- End Link List -->                    
+
+                    <!-- Address -->
+                    <div class="col-md-3 map-img md-margin-bottom-40">
+                        <div class="headline"><h2>Contact Us</h2></div>                         
+                        <address class="md-margin-bottom-40">
+                            If you have any questions <br />
+                            please <a href="page_contact_advanced.php">contact our<br />
+                            office.</a> Someone will<br />
+                            get back to you shortly.
+                      </address>
+                    </div><!--/col-md-3-->
+                    <!-- End Address -->
+                </div>
+            </div> 
+        </div><!--/footer-->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">                     
+                        <p>
+                            2015 &copy; All Rights Reserved.
+                        </p>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="col-md-6">
+                        <ul class="footer-socials list-inline">
+                            <li>
+                                <a href="http://skype.com" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype">
+                                    <i class="fa fa-skype"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/harinatarajan" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Social Links -->
+                </div>
+            </div> 
+        </div><!--/copyright-->
+    </div>
+    <!--=== End Footer Version 1 ===-->
+</div><!--/wrapper-->
+
+<!-- JS Global Compulsory -->			
+<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
+<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script>
+<!-- JS Customization -->
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<!-- JS Page Level -->           
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/plugins/parallax-slider.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+        App.initSliders();      
+        ParallaxSlider.initParallaxSlider();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+    <script src="assets/js/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+
+</body>
+</html>

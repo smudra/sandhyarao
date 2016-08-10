@@ -1,0 +1,20 @@
+/* Add here all your css styles (customizations) */
+
+.navbar	{
+	min-height: 55px;
+	margin-bottom: 10px;
+}
+
+.navbar-brand	{
+	padding-top: 5px;
+}
+
+.col-md-home	{
+	width: 25%;
+}
+
+#rowCTA	{
+	width: 20%;
+	float: left;
+	margin-top: 1%;
+}
